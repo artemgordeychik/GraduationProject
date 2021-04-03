@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TestingFramework.Framework.Browser.Enums
+﻿namespace TestingFramework.Framework.Browser.Enums
 {
-    class Browsers
+    public enum BrowserName
     {
+        Chrome,
+        Edge,
+        Firefox,
+        Safari
     }
 }

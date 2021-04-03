@@ -1,7 +1,5 @@
 ﻿using log4net;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using log4net.Config;
 
 namespace TestingFramework.Framework.Utils
 {
@@ -16,18 +14,18 @@ namespace TestingFramework.Framework.Utils
 
         public static void MakeStepLog(int numberOfStep, string step)
         {
-            Logger.Log.Info(numberOfStep + " - " + step);
+            Log.Info(numberOfStep + " - " + step);
         }
 
         public static void MakeLog(string log)
         {
-            Logger.Log.Info(log);
+            Log.Info(log);
         }
 
         public static void MakeErrorLog(string message)
         {
             string customLog = "Error: " + message;
-            Logger.Log.Info(customLog);
+            Log.Info(customLog);
             throw new System.Exception();
         }
     }

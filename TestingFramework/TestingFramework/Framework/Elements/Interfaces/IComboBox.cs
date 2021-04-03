@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TestingFramework.Framework.Resources
+namespace TestingFramework.Framework.Elements.Interfaces
 {
-    class ResourcesWorker
+    class IComboBox
     {
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a2.gordeychik\\source\\repos\\TestingFramework\\TestingFramework\\TestingFramework.csproj": {}
+    "C:\\Users\\a2.gordeychik\\source\\repos\\TestingFramework\\СoVTesting\\СoVTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a2.gordeychik\\source\\repos\\TestingFramework\\TestingFramework\\TestingFramework.csproj": {
+    "C:\\Users\\a2.gordeychik\\source\\repos\\TestingFramework\\СoVTesting\\СoVTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a2.gordeychik\\source\\repos\\TestingFramework\\TestingFramework\\TestingFramework.csproj",
-        "projectName": "TestingFramework",
-        "projectPath": "C:\\Users\\a2.gordeychik\\source\\repos\\TestingFramework\\TestingFramework\\TestingFramework.csproj",
+        "projectUniqueName": "C:\\Users\\a2.gordeychik\\source\\repos\\TestingFramework\\СoVTesting\\СoVTesting.csproj",
+        "projectName": "СoVTesting",
+        "projectPath": "C:\\Users\\a2.gordeychik\\source\\repos\\TestingFramework\\СoVTesting\\СoVTesting.csproj",
         "packagesPath": "C:\\Users\\a2.gordeychik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a2.gordeychik\\source\\repos\\TestingFramework\\TestingFramework\\obj\\",
+        "outputPath": "C:\\Users\\a2.gordeychik\\source\\repos\\TestingFramework\\СoVTesting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,21 +44,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Polly": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[7.2.2, )"
+              "version": "[16.5.0, )"
             },
-            "Selenium.Support": {
+            "NUnit": {
               "target": "Package",
-              "version": "[3.141.0, )"
+              "version": "[3.12.0, )"
             },
-            "Selenium.WebDriver": {
+            "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.141.0, )"
-            },
-            "WebDriverManager": {
-              "target": "Package",
-              "version": "[2.11.1, )"
+              "version": "[3.16.1, )"
             }
           },
           "imports": [

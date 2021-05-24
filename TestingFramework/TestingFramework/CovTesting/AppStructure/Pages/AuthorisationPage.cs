@@ -7,8 +7,8 @@ namespace СoVTesting.AppStructure.Pages
 {
     public class AuthorisationPage : BasePage
     {
-        private ITextBox LoginTextBox => ElementsFactory.GetTextBox(By.Id("username"), "Login Text Box");
-        private ITextBox PasswordTextBox => ElementsFactory.GetTextBox(By.XPath("//input[@id='password']"), "Password Text Box");
+        private ITextBox LoginTextBox => ElementsFactory.GetTextBox(By.Id("username"), "Login TextBox");
+        private ITextBox PasswordTextBox => ElementsFactory.GetTextBox(By.XPath("//input[@id='password']"), "Password TextBox");
         private IButton SignInButton => ElementsFactory.GetButton(By.XPath("//button[contains(@type, 'submit')]"), "Sign In Button");
         private IButton SignUpButton => ElementsFactory.GetButton(By.XPath("//a[contains(text(), 'SIGN UP')]"), "Sign Up Button");
         private IButton HomeButton => ElementsFactory.GetButton(By.XPath("//a[contains(text(), 'HOME')]"), "Home Button");

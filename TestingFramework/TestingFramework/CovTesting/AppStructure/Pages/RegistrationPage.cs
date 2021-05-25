@@ -14,6 +14,35 @@ namespace СoVTesting.AppStructure.Pages
         private IButton SignInButton => ElementsFactory.GetButton(By.XPath("//*[@id='root']/div[2]/form/div[5]/a[1]"), "Sign In Button");
         private IButton SignUpButton => ElementsFactory.GetButton(By.XPath("//*[@id='root']/div[2]/form/div[5]/button"), "Sign Up Button");
         private IButton HomeButton => ElementsFactory.GetButton(By.XPath("//*[@id='root']/div[2]/form/div[5]/a[2]"), "Home Button");
+
+        public void InputUsername(string username)
+        {
+            UsernameTextBox.InputValue(username);
+        }
+        public void InputEmail(string email)
+        {
+            EmailTextBox.InputValue(email);
+        }
+        public void InputPassword(string password)
+        {
+            PasswordTextBox.InputValue(password);
+        }
+        public void InputRepeatPassword(string repeatPassword)
+        {
+            RepeatPasswordTextBox.InputValue(repeatPassword);
+        }
+        public void ClickSignInButton()
+        {
+            SignInButton.Click();
+        }
+        public void ClickSignUpButton()
+        {
+            SignUpButton.Click();
+        }
+        public void ClickHomeButton()
+        {
+            HomeButton.Click();
+        }
         public void MakeRegistration(string username, string email, string password, string repeatPassword)
         {
             UsernameTextBox.WaitForExist();

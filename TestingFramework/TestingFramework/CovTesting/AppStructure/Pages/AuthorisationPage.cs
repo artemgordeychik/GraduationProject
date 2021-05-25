@@ -16,7 +16,26 @@ namespace СoVTesting.AppStructure.Pages
         public AuthorisationPage() : base(By.Id("username"), "Authorisation page", "http://localhost:3000/signIn") 
         { 
         }
-
+        public void InputLogin(string login)
+        {
+            LoginTextBox.InputValue(login);
+        }
+        public void InputPassword(string password)
+        {
+            PasswordTextBox.InputValue(password);
+        }
+        public void ClickSignInButton()
+        {
+            SignInButton.Click();
+        }
+        public void ClickSignUpButton()
+        {
+            SignUpButton.Click();
+        }
+        public void ClickHomeButton()
+        {
+            HomeButton.Click();
+        }
         public void MakeAuthorisation(string login, string password)
         {
             LoginTextBox.WaitForExist();

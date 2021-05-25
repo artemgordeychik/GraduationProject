@@ -12,6 +12,10 @@ namespace СoVTesting.AppStructure.Pages
         public HomePage() : base(By.XPath("//h1[contains(text(), 'HOME')]"), "Home page", "http://localhost:3000/")
         {
         }
+        public void ClickSignInButton()
+        {
+            SignInButton.Click();
+        }
 
         public void GoToAuthorisationPage()
         {

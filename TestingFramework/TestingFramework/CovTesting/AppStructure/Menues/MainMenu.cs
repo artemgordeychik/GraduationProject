@@ -15,5 +15,15 @@ namespace TestingFramework.CovTesting.AppStructure.Menues
         {
             return UserButton.GetText();
         }
+        public void ClickFormsButton()
+        {
+            FormsButton.Click();
+        }
+        public void ClickResponsesButton()
+        {
+           ResponsesButton.Click();
+        }
+
+
     }
 }
